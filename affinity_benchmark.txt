@@ -1,0 +1,25 @@
+CPU AFFINITY PERFORMANCE EXPERIMENT
+====================================
+
+Workload: Sum of squares from 0 to 4,999,999
+Measurement tool: Python time.perf_counter()
+Environment: Ubuntu on WSL2
+
+Run    All CPUs (seconds)    CPU 0 only (seconds)
+1      0.2776                0.3111
+2      0.2795                0.2870
+3      0.2808                0.3086
+4      0.3034                0.2812
+5      0.2772                0.3028
+
+Average:
+All CPUs: 0.2837 seconds
+CPU 0 only: 0.2981 seconds
+
+Difference: Approximately 5.1% slower with CPU 0 restriction.
+
+Conclusion:
+CPU affinity successfully restricted the process to one logical CPU.
+The restricted runs had a slightly higher average execution time.
+Individual measurements varied, so the result should be treated as
+an observation under this WSL2 environment, not a universal rule.

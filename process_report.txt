@@ -1,0 +1,22 @@
+
+========== LINUX PROCESS INVESTIGATOR ==========
+
+Total processes detected: 26
+
+PID      PPID     STATE              MEMORY       THREADS  NAME
+-------------------------------------------------------------------------------------
+203      1        S (sleeping)       23324 kB     2        unattended-upgr
+1039     1        S (sleeping)       20896 kB     4        packagekitd
+41       1        S (sleeping)       19616 kB     1        systemd-journal
+720      1        S (sleeping)       13924 kB     8        wsl-pro-service
+123      1        S (sleeping)       13260 kB     1        systemd-resolve
+1        0        S (sleeping)       13188 kB     1        systemd
+339      1        S (sleeping)       11396 kB     1        systemd
+1198     294      R (running)        10472 kB     1        python3
+176      1        S (sleeping)       8856 kB      1        systemd-logind
+1044     1        S (sleeping)       8072 kB      4        polkitd
+131      1        S (sleeping)       7956 kB      2        systemd-timesyn
+90       1        S (sleeping)       6368 kB      1        systemd-udevd
+195      1        S (sleeping)       5604 kB      4        rsyslogd
+294      293      S (sleeping)       5384 kB      1        bash
+167      1        S (sleeping)       5360 kB      1        dbus-daemon

@@ -1,0 +1,24 @@
+PID,Name,PPID,State,Memory,Threads
+203,unattended-upgr,1,S (sleeping),23324 kB,2
+41,systemd-journal,1,S (sleeping),19564 kB,1
+123,systemd-resolve,1,S (sleeping),13260 kB,1
+1,systemd,0,S (sleeping),13188 kB,1
+339,systemd,1,S (sleeping),11396 kB,1
+1583,python3,294,R (running),11048 kB,1
+176,systemd-logind,1,S (sleeping),8856 kB,1
+1044,polkitd,1,S (sleeping),8072 kB,4
+131,systemd-timesyn,1,S (sleeping),7956 kB,2
+90,systemd-udevd,1,S (sleeping),6368 kB,1
+195,rsyslogd,1,S (sleeping),5604 kB,4
+294,bash,293,S (sleeping),5396 kB,1
+167,dbus-daemon,1,S (sleeping),5360 kB,1
+362,bash,295,S (sleeping),5356 kB,1
+295,login,2,S (sleeping),4644 kB,1
+340,(sd-pam),339,S (sleeping),3592 kB,1
+165,cron,1,S (sleeping),2672 kB,1
+2,init-systemd(Ub,1,S (sleeping),2524 kB,2
+8,init,2,S (sleeping),2292 kB,2
+3,init-watcher,2,S (sleeping),2224 kB,1
+202,agetty,1,S (sleeping),1968 kB,1
+293,Relay(294),292,S (sleeping),1560 kB,1
+292,SessionLeader,2,S (sleeping),1492 kB,1
